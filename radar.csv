@@ -1,0 +1,43 @@
+name,ring,quadrant,isNew,description
+GE Tracker,adopt,tools,FALSE,"<a href=""https://apphub.apps.ge.com/catalog/1692/metrics?show=overview"">GE Tracker</a> integrates with Google Analytics and provides helpful information about the usage of applications."
+NewRelic,adopt,tools,FALSE,"NewRelic is a monitoring and analysis tool useful for error tracing, error notification and performance analysis."
+Confluence,adopt,tools,FALSE,Confluence is a full featured Wiki available through build.ge.com
+Rally,adopt,tools,FALSE,Rally is a work tracking tool designed for Scrum and Kanban projects.
+Slack,adopt,tools,TRUE,Slack (SlackMcSlackFace) is an instance of public Slack usable to GE Aviation DTS Engineering.
+GE GitHub Enterprise,adopt,tools,FALSE,GE GitHub Enterprise is an internal instance of GitHub offered by GE to all employees.
+Gliffy,adopt,tools,FALSE,Gliffy is a diagramming tool offered through Confluence.
+JobDSL on Jenkins in Propel,adopt,tools,FALSE,"SmartShop's pipeline is currently built using JobDSL and the Mesos Propel infrastructure is designed to handle standalone jobs, not Pipelines."
+Whitesource,adopt,tools,FALSE,Whitesource is an OSS tool approved by GE Aviation DTS.
+Tinfoil API,adopt,tools,FALSE,Tinfoil API is a DAST tool approved by GE Aviation DTS.
+Checkmarx,adopt,tools,TRUE,Checkmarx is a SAST tool approved by GE Aviation DTS.
+Lombok,trial,tools,FALSE,"Lombok is a way to reduce the need for boilerplate code in a Java application. It does come with complexity costs, as IDEs need to be configured to work with it."
+Jenkins Pipeline on Jenkins in Propel,trial,tools,TRUE,Propel's primary push is for Jenkins Pipelines as is GE Aviation DTS's.
+Timely,trial,tools,TRUE,"Timely is a <a href=""https://timely-web.run.aws-usw02-pr.ice.predix.io/ready-code"">metrics  tool</a> built by Matthew Landry. "
+Flowdock,hold,tools,FALSE,"Flowdock is a chat tool offered by CA Agile Central, but is not approved for use in GE"
+CICADA on Jenkins in Propel,hold,tools,FALSE,CICADA will no longer be supported in the near future.
+Java 11 (or OpenJDK),adopt,languages & frameworks,TRUE,Java 11 is an LTS version of Java which now requires a license to use comercially. An alternative is the equivalent verison of OpenJDK with the added risk of potential security issues not getting fixes as quickly.
+Spring Boot,adopt,languages & frameworks,FALSE,Spring Boot is a framework for building self-running APIs.
+Angular (Angular CLI),adopt,languages & frameworks,TRUE,Angular is a well-supported front-end framework.
+GraphQL,assess,languages & frameworks,FALSE,GraphQL may allow our front-end developers to construct queries on data explicitly retrieving data they need as opposed to conforming to a REST contract.
+Coverity,hold,tools,FALSE,"Coverity is a SAST tool offered by GE, but GE Aviation DTS would like to move toward a different tool, Checkmarx."
+Java 8,hold,languages & frameworks,FALSE,"Java 8's end of life is end of April, 2019. <a href=""https://www.oracle.com/technetwork/java/java-se-support-roadmap.html"">The Support Roadmap lays it out.</a>"
+AngularJS,hold,languages & frameworks,FALSE,AngularJS is no longer supported by Google.
+Grayskull,hold,languages & frameworks,FALSE,Grayskull was a Front End framework designed by GE employees and is no longer supported.
+Docker,adopt,platforms,FALSE,"Docker is a multi-use container solution useful for deployments, local development, among other things."
+Aviation AWS Guardrails VPC,trial,platforms,FALSE,Aviation AWS Guardrails VPC is an Aviation AWS sandbox solution for learning and experimentation.
+Aviation AWS GovCloud East VPC,assess,platforms,FALSE,Aviation AWS GovCloud East VPC will be an instrumented version of GovCloud for GE.
+Predix US West,hold,platforms,FALSE,"Predix US West is not scheduled to be decomissioned, but is deemed risk to use in the current climate of GE Digital."
+Predix US East,hold,platforms,FALSE,"Predix US East is decomissioned as of April 30th, 2019."
+Predix GovCloud,hold,platforms,TRUE,"Predix GovCloud was built for one customer, Excelon, and is not designed for use by other customers."
+Aviation AWS GovCloud West VPC,hold,platforms,FALSE,"Aviation AWS GovCloud West VPC is instrumented version of GovCloud for GE, but will be decomissioned in 2019."
+GE ICS Cloud,hold,platforms,FALSE,GE ICS Cloud is an internal GE server solution no longer supported by GE.
+Roadmap Planning,adopt,techniques,FALSE,Roadmap Planning sets the goals for a period of time in the future. It is helpful to have these at least once a quarter to re-assess priority and get on the same page.
+Pipelines as Code,adopt,techniques,TRUE,Pipelines as code allow you to version your pipeline and send it through code review.
+Threat Modeling,adopt,techniques,FALSE,Threat Modeling is helpful in identifying attack vectors.
+Tenant-Specific Feature Toggles,adopt,techniques,FALSE,"Feature Toggles are a necessary tool to enable CD for the product, and can be assigned to specific Tenants."
+Global Feature Toggles,adopt,techniques,TRUE,"Feature Toggles are a necessary tool to enable CD for the product, and can be toggled globally."
+Platform Teams,trial,techniques,FALSE,Platform Teams manage the non-functional aspects of the Product.
+Contingency Plans (FMEA),trial,techniques,FALSE,"We believe contingency plans are important, but as an FMEA, there may not be enough documented content to act on in an emergency."
+VR for Shop Visits,assess,techniques,FALSE,"Using off the shelf VR technology and 3D cameras, shops can be mapped and a VR space can be built for people to walk around in a shop."
+Single CI Instance for All Teams,hold,techniques,FALSE,"Single CI instances are too inflexible, require teams to work around the CI team's schedule for updates, and have not shown to be a viable, supportable solution for orgs our size."
+Non-Colaborative Remote Dependent Teams,hold,techniques,FALSE,We tend to believe teams require at least 4 hours of overlap to successfully collaborate.
